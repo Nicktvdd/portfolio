@@ -54,7 +54,7 @@ let steps = [
         Curious to <span class="poppins text-violet-400">see</span> my work?
       </h3>
     </div>
-    <a href=""
+    <a href="https://www.youtube.com/watch?v=H8ZH_mkfPUY&t=7s"
     target="_blank" class="mx-auto px-4 py-2 rounded-md border border border-solid border-white
     flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
     <i class="fa-regular fa-circle-play"></i>
