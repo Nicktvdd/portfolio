@@ -39,7 +39,7 @@ let steps = [
       </a>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
-      <img src={"images/profile.png"} alt="Profile image" class="cobject-cover z-[2] max-h-[70vh]"/>
+      <img src={"images/profile.png"} alt="Profile image" class="object-cover z-[2] max-h-[70vh]"/>
     </div>
   </section>
 
@@ -62,14 +62,27 @@ let steps = [
   </a>
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-10">
     <Step step={steps[0]}>
+      <p> lorem ipsum bla bla bla <strong class="text-violet-400"> Some tech like Nextjs strip etc.
 
+      </strong> commerce.js is a product content managment system. stripe is used for transaction handling.
+      </p>
     </Step>
     <Step step={steps[1]}>
+      <p> Todos is full stack bla <strong class="text-violet-400"> Some tech like Nextjs strip etc.
+
+      </strong> commerce.js is a product content managment system. stripe is used for transaction handling.
 
     </Step>
     <Step step={steps[2]}>
+      <p> lorem ipsum bla bla bla <strong class="text-violet-400"> Some tech like Nextjs strip etc.
+
+      </strong> commerce.js is a product content managment system. stripe is used for transaction handling.
 
     </Step>
   </div>
+  </section>
+  <section id="about">
+
+
   </section>
 </main>
