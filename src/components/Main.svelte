@@ -55,7 +55,7 @@
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </a>
     </div>
-    <div class="relative shadow-2xl grid place-items-center">
+    <div class="relative grid place-items-center">
       <img
         src={"images/profile.png"}
         alt="Profile image"
