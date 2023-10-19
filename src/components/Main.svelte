@@ -146,7 +146,7 @@
     </div>
     <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">The <span class="text-teal-400 poppins">Complete</span> Package</h5>
     <div
-      class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
+      class="flex flex-col overflow-x-scroll md:overflow-x-auto gap-10 max-w-[800px] mx-auto w-full"
     >
       <table class="bg-white text-stone-700 rounded text-center">
         <thead class="border-b border-solid border-stone-200">
@@ -199,6 +199,5 @@
     <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
       <p>Scroll to see more &rarr;</p>
     </div>
-    <p class="mx-auto">So why not invest?</p>
   </section>
 </main>
