@@ -35,8 +35,8 @@
       class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
     >
       <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-        Hi! I'm <br><span class="poppins text-teal-400">Nick</span> Van den Dungen<br
-        />Full Stack
+        Hi! I'm <br /><span class="poppins text-teal-400">Nick</span> Van den
+        Dungen<br />Full Stack
         <span class="poppins text-teal-400">Developer</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
@@ -44,7 +44,7 @@
         or SvelteKit), TailwindCSS, Node.js + Express.js & MongoDB!
       </p>
       <a
-        class="blueShadow transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 hover:bg-teal-400 duration-200 
+        class="blueShadow transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 hover:bg-teal-400 duration-200
         mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-stone-950
         cursor-pointer"
         href="https://www.linkedin.com/in/nick-van-den-dungen/"
@@ -151,16 +151,14 @@
     <div
       class="flex flex-col overflow-x-scroll md:overflow-x-auto gap-10 max-w-[800px] mx-auto w-full"
     >
-      <table class="bg-white text-stone-700 rounded text-center">
+      <table class="bg-stone-100 text-stone-700 rounded text-center">
         <thead class="border-b border-solid border-stone-200">
           <tr class="">
             <th />
             <th class="whitespace-nowrap p-2 px-4"> candidate #1</th>
             <th class="whitespace-nowrap p-2 px-4"> candidate #2</th>
             <th class="whitespace-nowrap p-2 px-4"> candidate #3</th>
-            <th class="whitespace-nowrap bg-teal-700 text-white p-4 px-8">
-              Me</th
-            >
+            <th class="whitespace-nowrap bg-teal-700 text-white p-4 px-8"> Me</th>
           </tr>
         </thead>
         <tbody>
