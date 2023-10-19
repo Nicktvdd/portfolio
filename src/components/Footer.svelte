@@ -1,30 +1,56 @@
 <footer
-  class="py-20 sm:py-32 bg-black border-t border-solid border-violet-950
+  class="py-20 sm:py-32 bg-black border-t border-solid border-teal-950
 flex flex-col gap-4 sm:gap8 justify-center items-center"
 >
   <p class="px-4 py-2 bg-white text-slate-950 font-medium">
-    connect with me &darr;
+    Connect with me &darr;
   </p>
   <div class="flex flex-col gap-4 items-center justify-center">
-    <p><b class="pr-2">Email</b>Nicktvdd@gmail.com</p>
     <p>
-      <b class="pr-2">Github</b>
-      <a class="text-violet-400" target="_blank" href="https://github.com/Nicktvdd">
-        Nicktvdd<sup><span class="text-xs scale-75 pl-0.5">
-          <i class="fa-solid fa-arrow-up-right-from-square text-xs
+      <i class="fa-solid fa-envelope" />
+      <a
+        class="text-teal-400"
+        target="_blank"
+        href="mailto:nicktvdd@gmail.com"
+      >
+        Nicktvdd@gmail.com <i
+          class="fa-solid fa-arrow-up-right-from-square text-xs
+        scale-[75%]"
+        /></a
+      >
+    </p>
+    <p>
+      <i class="fa-brands fa-github" />
+      <a
+        class="text-teal-400"
+        target="_blank"
+        href="https://github.com/Nicktvdd"
+      >
+        Nicktvdd<sup
+          ><span class="text-xs scale-75 pl-0.5">
+            <i
+              class="fa-solid fa-arrow-up-right-from-square text-xs
           scale-[75%]"
-          />
-        </span></sup>
+            />
+          </span></sup
+        >
       </a>
     </p>
     <p>
-      <b class="pr-2">LinkedIn</b>
-      <a class="text-violet-400" target="_blank" href="https://www.linkedin.com/in/nick-van-den-dungen/">
-        Nicktvdd<sup><span class="text-xs scale-75 pl-0.5">
-          <i class="fa-solid fa-arrow-up-right-from-square text-xs
+      <i class="fa-brands fa-linkedin" />
+      <a
+        class="text-teal-400"
+        target="_blank"
+        href="https://www.linkedin.com/in/nick-van-den-dungen/"
+      >
+        Nick van den Dungen<sup
+          ><span class="text-xs scale-75 pl-0.5">
+            <i
+              class="fa-solid fa-arrow-up-right-from-square text-xs
           scale-[75%]"
-          />
-        </span></sup>
+            />
+          </span></sup
+        >
       </a>
     </p>
   </div>
