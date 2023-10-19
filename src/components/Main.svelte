@@ -44,13 +44,13 @@
         (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & MongoDB!
       </p>
       <a
-        class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950
+        class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-stone-950
         cursor-pointer"
         href="https://www.linkedin.com/in/nick-van-den-dungen/"
         target="_blank"
       >
         <div
-          class="absolute top-0 right-full w-full-h-full bg-teal-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+          class="absolute top-0 right-full w-full-h-full bg-teal-400 opacity-20 group-hover:transtone-x-full z-0 duration-200"
         />
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </a>
@@ -131,7 +131,7 @@
       {#each benefits as benefit, index}
         <div class="flex gap-6 sm:gap-8">
           <p
-            class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
+            class="poppins text-4xl sm:text-5xl md:text-6xl text-stone-500 font-semibold"
           >
             0{index + 1}
           </p>
@@ -148,8 +148,8 @@
     <div
       class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
     >
-      <table class="bg-white text-slate-700 rounded text-center">
-        <thead class="border-b border-solid border-slate-200">
+      <table class="bg-white text-stone-700 rounded text-center">
+        <thead class="border-b border-solid border-stone-200">
           <tr class="">
             <th />
             <th class="whitespace-nowrap p-2 px-4"> candidate #1</th>
@@ -161,36 +161,36 @@
           </tr>
         </thead>
         <tbody>
-          <tr class="border-b border-solid border-slate-200">
+          <tr class="border-b border-solid border-stone-200">
             <td class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
               Dedication</td>
-              <td><i class="fa-solid fa-check text-slate-500"></i></td>
-              <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-              <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+              <td><i class="fa-solid fa-check text-stone-500"></i></td>
+              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
+              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
               <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
-          <tr class="border-b border-solid border-slate-200">
+          <tr class="border-b border-solid border-stone-200">
             <td class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
               Critical Thought</td>
-              <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-              <td><i class="fa-solid fa-check text-slate-500"></i></td>
-              <td><i class="fa-solid fa-check text-slate-500"></i></td>
+              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
+              <td><i class="fa-solid fa-check text-stone-500"></i></td>
+              <td><i class="fa-solid fa-check text-stone-500"></i></td>
               <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
-          <tr class="border-b border-solid border-slate-200">
+          <tr class="border-b border-solid border-stone-200">
             <td class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
               Interpersonal Skills</td>
-              <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-              <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-              <td><i class="fa-solid fa-check text-slate-500"></i></td>
+              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
+              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
+              <td><i class="fa-solid fa-check text-stone-500"></i></td>
               <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
-          <tr class="border-b border-solid border-slate-200">
+          <tr class="border-b border-solid border-stone-200">
             <td class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
               Programming Ability</td>
-              <td><i class="fa-solid fa-check text-slate-500"></i></td>
-              <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-              <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+              <td><i class="fa-solid fa-check text-stone-500"></i></td>
+              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
+              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
               <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
         </tbody>
