@@ -35,13 +35,13 @@
       class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
     >
       <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-        Hi! I'm <span class="poppins text-teal-400">Nick</span> Van den Dungen<br
+        Hi! I'm <br><span class="poppins text-teal-400">Nick</span> Van den Dungen<br
         />Full Stack
         <span class="poppins text-teal-400">Developer</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
-        My <span class="text-teal-400">favorite tech</span> includes Javascript
-        (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & MongoDB!
+        My <span class="text-teal-400">favorite tech</span> includes Javascript (NEXT.JS
+        or SvelteKit), TailwindCSS, Node.js + Express.js & MongoDB!
       </p>
       <a
         class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-stone-950
@@ -144,7 +144,9 @@
         </div>
       {/each}
     </div>
-    <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">The <span class="text-teal-400 poppins">Complete</span> Package</h5>
+    <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">
+      The <span class="text-teal-400 poppins">Complete</span> Package
+    </h5>
     <div
       class="flex flex-col overflow-x-scroll md:overflow-x-auto gap-10 max-w-[800px] mx-auto w-full"
     >
@@ -162,36 +164,48 @@
         </thead>
         <tbody>
           <tr class="border-b border-solid border-stone-200">
-            <td class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
-              Dedication</td>
-              <td><i class="fa-solid fa-check text-stone-500"></i></td>
-              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
-              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
-              <td><i class="fa-solid fa-check text-green-500"></i></td>
+            <td
+              class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+            >
+              Dedication</td
+            >
+            <td><i class="fa-solid fa-check text-stone-500" /></td>
+            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
+            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
           <tr class="border-b border-solid border-stone-200">
-            <td class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
-              Critical Thought</td>
-              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
-              <td><i class="fa-solid fa-check text-stone-500"></i></td>
-              <td><i class="fa-solid fa-check text-stone-500"></i></td>
-              <td><i class="fa-solid fa-check text-green-500"></i></td>
+            <td
+              class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+            >
+              Critical Thought</td
+            >
+            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
+            <td><i class="fa-solid fa-check text-stone-500" /></td>
+            <td><i class="fa-solid fa-check text-stone-500" /></td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
           <tr class="border-b border-solid border-stone-200">
-            <td class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
-              Interpersonal Skills</td>
-              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
-              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
-              <td><i class="fa-solid fa-check text-stone-500"></i></td>
-              <td><i class="fa-solid fa-check text-green-500"></i></td>
+            <td
+              class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+            >
+              Interpersonal Skills</td
+            >
+            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
+            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
+            <td><i class="fa-solid fa-check text-stone-500" /></td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
           <tr class="border-b border-solid border-stone-200">
-            <td class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
-              Programming Ability</td>
-              <td><i class="fa-solid fa-check text-stone-500"></i></td>
-              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
-              <td><i class="fa-solid fa-xmark text-stone-500"></i></td>
-              <td><i class="fa-solid fa-check text-green-500"></i></td>
+            <td
+              class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+            >
+              Programming Ability</td
+            >
+            <td><i class="fa-solid fa-check text-stone-500" /></td>
+            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
+            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
         </tbody>
       </table>
