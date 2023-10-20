@@ -76,7 +76,7 @@
         Curious to <span class="poppins text-teal-500">see</span> my work?
       </h3>
     </div>
-    <a
+    <!-- <a
       href="https://www.youtube.com/watch?v=H8ZH_mkfPUY&t=7s"
       target="_blank"
       class="mx-auto px-4 py-2 rounded-md border border-solid border-stone-50
@@ -84,7 +84,7 @@
     >
       <i class="fa-regular fa-circle-play" />
       <p>Watch the video</p>
-    </a>
+    </a> -->
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-10">
       <Step step={steps[0]}>
         <p>
