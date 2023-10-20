@@ -45,7 +45,7 @@
       </p>
       <a
         class="blueShadow transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 hover:bg-teal-400 duration-200
-        mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-stone-950
+        mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-stone-50 text-stone-950
         cursor-pointer"
         href="https://www.linkedin.com/in/nick-van-den-dungen/"
         target="_blank"
@@ -58,7 +58,7 @@
     </div>
     <div class="relative grid place-items-center">
       <img
-        src={"images/profile1.png"}
+        src={"images/profile2.png"}
         alt="Profile image"
         class="object-cover z-[2] max-h-[70vh] animate-fade animate-ease-linear"
       />
@@ -77,7 +77,7 @@
     <a
       href="https://www.youtube.com/watch?v=H8ZH_mkfPUY&t=7s"
       target="_blank"
-      class="mx-auto px-4 py-2 rounded-md border border-solid border-white
+      class="mx-auto px-4 py-2 rounded-md border border-solid border-stone-50
     flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-teal-700 duration-200"
     >
       <i class="fa-regular fa-circle-play" />
@@ -158,13 +158,13 @@
             <th class="whitespace-nowrap p-2 px-4"> candidate #1</th>
             <th class="whitespace-nowrap p-2 px-4"> candidate #2</th>
             <th class="whitespace-nowrap p-2 px-4"> candidate #3</th>
-            <th class="whitespace-nowrap bg-teal-700 text-white p-4 px-8"> Me</th>
+            <th class="whitespace-nowrap bg-teal-700 text-stone-50 p-4 px-8"> Me</th>
           </tr>
         </thead>
         <tbody>
           <tr class="border-b border-solid border-stone-200">
             <td
-              class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="border-r border-solid bord-stone-50 pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Dedication</td
             >
@@ -175,7 +175,7 @@
           </tr>
           <tr class="border-b border-solid border-stone-200">
             <td
-              class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="border-r border-solid bord-stone-50 pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Critical Thought</td
             >
@@ -186,7 +186,7 @@
           </tr>
           <tr class="border-b border-solid border-stone-200">
             <td
-              class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="border-r border-solid bord-stone-50 pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Interpersonal Skills</td
             >
@@ -197,7 +197,7 @@
           </tr>
           <tr class="border-b border-solid border-stone-200">
             <td
-              class="border-r border-solid bord-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="border-r border-solid bord-stone-50 pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Programming Ability</td
             >

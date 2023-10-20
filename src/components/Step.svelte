@@ -21,7 +21,7 @@ hover:border-teal-400 duration-200"
     <div
       class="ml-auto cursor-pointer hover:text-stone-950 duration-200 relative
     after:absolute after:top-0 after:h-0 after:right-full after:w-full after:h-full
-    after:bg-white after:duration-200 hover:after:translate-x-full after:z-[-1] 
+    after:bg-stone-50 after:duration-200 hover:after:translate-x-full after:z-[-1] 
     overflow-hidden"
     >
       <p class="relative z-4">Go to &rarr;</p>
