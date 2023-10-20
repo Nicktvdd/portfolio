@@ -11,12 +11,12 @@
     {
       name: "Programming Enthusiast with a Sports Science Background",
       description:
-        "I'm a programming enthusiast currently studying at Hive Helsinki 🇫🇮, with a background in sports science and management. My experience brings a blend of teamwork, problem-solving, and creativity to the world of programming. I possess a deep-rooted passion for coding and an insatiable curiosity for learning. Whether it's code or sports, I relish challenges and collaboration, continually seeking fresh ways to excel",
+        "I'm a programming enthusiast currently studying at Hive Helsinki 🇫🇮, with a background in sports science and management. My experience brings a blend of teamwork, problem-solving, and creativity to the world of programming. I possess a deep-rooted passion for coding and an insatiable curiosity for learning. Whether it's code or sports, I relish challenges and collaboration, continually seeking fresh ways to excel.",
     },
     {
       name: "Advocate for Sustainable Development and Environmental Awareness",
       description:
-        "I am deeply committed to leveraging technology for sustainable development and raising awareness about environmental issues. My drive pushes me to create innovative solutions and advocate for a greener future. Whether in tech work or personal initiatives, I promote eco-conscious practices and aim for a harmonious blend of technology and environmental responsibility",
+        "I am deeply committed to leveraging technology for sustainable development and raising awareness about environmental issues. My drive pushes me to create innovative solutions and advocate for a greener future. Whether in tech work or personal initiatives, I promote eco-conscious practices and aim for a harmonious blend of technology and environmental responsibility.",
     },
     {
       name: "Problem Solver",
@@ -84,7 +84,7 @@
   <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
     <div class="flex flex-col gap-2 text-center">
       <h6 class="text-lg sm:text-xl md:text-2xl animate-flip-up animate-ease-linear">
-        A few of my creative endeavors.
+        A few of my creative endeavors
       </h6>
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
         Curious to <span class="poppins text-teal-500">see</span> my work?
@@ -102,12 +102,12 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          "This portfolio website is powered by <strong class="text-teal-500">SvelteKit</strong>, 
+          This portfolio website is powered by <strong class="text-teal-500">SvelteKit</strong>, 
           styled with <strong class="text-teal-500">TailwindCSS</strong>, 
           and hosted on <strong class="text-teal-500">Vercel</strong>. 
           Shifting from my prior experience with React, I was eager to explore a fresh approach. 
           SvelteKit felt intuitively appealing, even though it has fewer learning resources available. 
-          Additionally, it marked my inaugural experience with TailwindCSS."
+          Additionally, it marked my inaugural experience with TailwindCSS.
         </p>
       </Step>
       <Step step={steps[1]} >
