@@ -51,7 +51,7 @@
         target="_blank"
       >
         <div
-          class="absolute top-0 right-full w-full-h-full bg-teal-400 opacity-20 group-hover:transtone-x-full z-0 duration-200"
+          class="absolute top-0 right-full w-full-h-full bg-teal-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
         />
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </a>
