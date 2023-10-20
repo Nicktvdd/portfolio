@@ -60,7 +60,7 @@
       <img
         src={"images/profile.png"}
         alt="Profile image"
-        class="object-cover z-[2] max-h-[70vh]"
+        class="object-cover z-[2] max-h-[70vh] animate-fade animate-ease-linear"
       />
     </div>
   </section>
