@@ -57,6 +57,20 @@
         />
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </a>
+<!--         <div>
+          <a
+          class="stone-50 hover:text-teal-400 flex col col-span-2"
+          target="_blank"
+          href="https://github.com/Nicktvdd">
+          <i class="fa-brands fa-github fa-2xl" />
+        </a>
+          <a
+          class="stone-50 hover:text-teal-400 flex col col-span-1"
+          target="_blank"
+          href="https://github.com/Nicktvdd">
+          <i class="fa-brands fa-github fa-2xl" />
+        </a>
+      </div> -->
     </div>
     <div class="relative grid place-items-center">
       <img

@@ -7,25 +7,24 @@ flex flex-col gap-4 sm:gap8 justify-center items-center"
   </p>
   <div class="flex flex-col gap-4 items-center justify-center">
     <p>
-      <i class="fa-solid fa-envelope" />
-      <a
-        class="text-teal-500"
-        target="_blank"
-        href="mailto:nicktvdd@gmail.com"
-      >
-        Nicktvdd@gmail.com <i
+      <a 
+        class="text-teal-500" 
+        target="_blank" 
+        href="mailto:nicktvdd@gmail.com">
+        <i class="fa-solid fa-envelope" />
+        Nicktvdd@gmail.com
+        <i
           class="fa-solid fa-arrow-up-right-from-square text-xs
         scale-[75%]"
         /></a
       >
     </p>
     <p>
-      <i class="fa-brands fa-github" />
       <a
         class="text-teal-500"
         target="_blank"
-        href="https://github.com/Nicktvdd"
-      >
+        href="https://github.com/Nicktvdd">
+        <i class="fa-brands fa-github" />
         Nicktvdd<sup
           ><span class="text-xs scale-75 pl-0.5">
             <i
@@ -37,12 +36,11 @@ flex flex-col gap-4 sm:gap8 justify-center items-center"
       </a>
     </p>
     <p>
-      <i class="fa-brands fa-linkedin" />
       <a
         class="text-teal-500"
         target="_blank"
-        href="https://www.linkedin.com/in/nick-van-den-dungen/"
-      >
+        href="https://www.linkedin.com/in/nick-van-den-dungen/">
+        <i class="fa-brands fa-linkedin" />
         Nick van den Dungen<sup
           ><span class="text-xs scale-75 pl-0.5">
             <i
