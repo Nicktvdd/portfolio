@@ -11,7 +11,7 @@
     {
       name: "Programming Enthusiast with a Sports Science Background",
       description:
-        "I'm a programming enthusiast currently studying at Hive Helsinki 🇫🇮, with a background in sports science and management. My experience brings a blend of teamwork, problem-solving, and creativity to the world of programming. I possess a deep-rooted passion for coding and an insatiable curiosity for learning. Whether it's code or sports, I relish challenges and collaboration, continually seeking fresh ways to excel.",
+        "I'm a programming enthusiast currently studying at Hive Helsinki, with a background in sports science and management. My experience brings a blend of teamwork, problem-solving, and creativity to the world of programming. I possess a deep-rooted passion for coding and an insatiable curiosity for learning. Whether it's code or sports, I relish challenges and collaboration, continually seeking fresh ways to excel.",
     },
     {
       name: "Advocate for Sustainable Development and Environmental Awareness",
