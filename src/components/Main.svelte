@@ -9,19 +9,19 @@
 
   let benefits = [
     {
-      name: "a poopie butt",
+      name: "Programming Enthusiast with a Sports Science Background",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "I'm a programming enthusiast currently studying at Hive Helsinki 🇫🇮, with a background in sports science and management. My experience brings a blend of teamwork, problem-solving, and creativity to the world of programming. I possess a deep-rooted passion for coding and an insatiable curiosity for learning. Whether it's code or sports, I relish challenges and collaboration, continually seeking fresh ways to excel",
     },
     {
-      name: "chef de la creme",
+      name: "Advocate for Sustainable Development and Environmental Awareness",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "I am deeply committed to leveraging technology for sustainable development and raising awareness about environmental issues. My drive pushes me to create innovative solutions and advocate for a greener future. Whether in tech work or personal initiatives, I promote eco-conscious practices and aim for a harmonious blend of technology and environmental responsibility",
     },
     {
-      name: "wears a soft sweater",
+      name: "Problem Solver",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "I have a natural aptitude for problem-solving. I take pleasure in dissecting complex challenges, simplifying them into manageable components, and uncovering practical solutions. Whether in sports or programming, I'm skilled at creatively addressing issues. My approach to problem-solving, coupled with my unwavering commitment to excellence, fuels my dedication to contributing to technology and sustainable development.",
     },
   ];
 </script>
