@@ -2,9 +2,9 @@
   import Step from "./Step.svelte";
 
   let steps = [
-    { name: "Projectname", icon: "fa-solid fa-code" },
-    { name: "Project2", icon: "fa-solid fa-list-check" },
-    { name: "Project3", icon: "fa-solid fa-diagram-project" },
+    { name: "Portfolio", icon: "fa-solid fa-code", href:"https://nickvandendungen.com" },
+    { name: "E-commerce", icon: "fa-solid fa-list-check" },
+    { name: "Low-level C programming", icon: "fa-solid fa-diagram-project", href:"https://github.com/Nicktvdd/MiniShell"},
   ];
 
   let benefits = [
@@ -88,26 +88,33 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          lorem ipsum bla bla bla <strong class="text-teal-500">
-            Some tech like Nextjs strip etc.
-          </strong> commerce.js is a product content managment system. stripe is
-          used for transaction handling.
+          "This portfolio website is powered by <strong class="text-teal-500">SvelteKit</strong>, 
+          styled with <strong class="text-teal-500">TailwindCSS</strong>, 
+          and hosted on <strong class="text-teal-500">Vercel</strong>. 
+          Shifting from my prior experience with React, I was eager to explore a fresh approach. 
+          SvelteKit felt intuitively appealing, even though it has fewer learning resources available. 
+          Additionally, it marked my inaugural experience with TailwindCSS."
         </p>
       </Step>
-      <Step step={steps[1]}>
+      <Step step={steps[1]} >
         <p>
-          Todos is full stack bla <strong class="text-teal-500">
-            Some tech like Nextjs strip etc.
-          </strong> commerce.js is a product content managment system. stripe is
-          used for transaction handling.
+          For my next full-stack project, I'm excited to delve into <strong class='text-teal-500'>
+            Next.js</strong>, <strong class='text-teal-500'>Stripe</strong>, 
+            <strong class='text-teal-500'>Prisma</strong>, 
+            and other essential technologies. My goal is to create a comprehensive e-commerce platform,
+             complete with a shopping cart, aesthetically pleasing product displays, 
+             and secure transactions.
         </p></Step
       >
       <Step step={steps[2]}>
         <p>
-          lorem ipsum bla bla bla <strong class="text-teal-500">
-            Some tech like Nextjs strip etc.
-          </strong> commerce.js is a product content managment system. stripe is
-          used for transaction handling.
+          While studying at Hive Helsinki, I immersed myself in the world of 
+          <strong class='text-teal-500'>C</strong>, leveraging low-level problem-solving skills, 
+          teamwork, and a keen eye for detail to craft intricate projects. 
+          I took pride in delving deep into the fundamentals of programming, 
+          often building my own functions that many programmers may take for granted. 
+          One standout project from this journey is MiniShell, 
+          where I developed a minimalist shell from the ground up within a team.
         </p></Step
       >
     </div>
@@ -201,7 +208,7 @@
             <td
               class="border-r border-solid bord-stone-50 pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
-              Programming Ability</td
+              Awesome problem solving</td
             >
             <td><i class="fa-solid fa-check text-stone-500" /></td>
             <td><i class="fa-solid fa-xmark text-stone-500" /></td>
