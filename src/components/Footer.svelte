@@ -9,7 +9,7 @@ flex flex-col gap-4 sm:gap8 justify-center items-center"
     <p>
       <i class="fa-solid fa-envelope" />
       <a
-        class="text-teal-400"
+        class="text-teal-500"
         target="_blank"
         href="mailto:nicktvdd@gmail.com"
       >
@@ -22,7 +22,7 @@ flex flex-col gap-4 sm:gap8 justify-center items-center"
     <p>
       <i class="fa-brands fa-github" />
       <a
-        class="text-teal-400"
+        class="text-teal-500"
         target="_blank"
         href="https://github.com/Nicktvdd"
       >
@@ -39,7 +39,7 @@ flex flex-col gap-4 sm:gap8 justify-center items-center"
     <p>
       <i class="fa-brands fa-linkedin" />
       <a
-        class="text-teal-400"
+        class="text-teal-500"
         target="_blank"
         href="https://www.linkedin.com/in/nick-van-den-dungen/"
       >

@@ -6,8 +6,8 @@
   href={step.href}
   target="_blank"
   class="p-3 sm:p-6 md:p-8 flex flex-col
-gap-4 rounded-lg border border-solid border-teal-700 text-center group cursor-pointer
-hover:border-teal-400 duration-200"
+gap-4 rounded-lg border border-solid border-teal-800 text-center group cursor-pointer
+hover:border-teal-500 duration-200"
 >
   <div
     class="bg-neutral-900 lg:bg-transparent bg-clip-content grid place-items-center px-4 text-5xl md:text-6xl -mt-10 sm:-mt-12
