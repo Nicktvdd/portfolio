@@ -122,13 +122,11 @@
       >
       <Step step={steps[2]}>
         <p>
-          While studying at Hive Helsinki, I immersed myself in the world of 
-          <strong class='text-teal-500'>C</strong>, leveraging low-level problem-solving skills, 
-          teamwork, and a keen eye for detail to craft intricate projects. 
-          I took pride in delving deep into the fundamentals of programming, 
-          often building my own functions that many programmers may take for granted. 
-          One standout project from this journey is MiniShell, 
-          where I developed a minimalist shell from the ground up within a team.
+          While at Hive Helsinki, I dove into the realm of <strong class='text-teal-500'>C</strong>, 
+          harnessing low-level problem-solving, teamwork, 
+          and attention to detail to craft intricate projects. 
+          I delved deep into programming fundamentals, often creating functions from scratch. 
+          One notable project was MiniShell, a minimalist shell developed from the ground up within a team.
         </p></Step
       >
     </div>
