@@ -41,7 +41,7 @@
       </h2>
       <p class="text-base sm:text-lg md:text-xl animate-fade-right animate-ease-linear">
         My <span class="text-teal-500">favorite tech</span> includes Javascript (NEXT.JS
-        or SvelteKit), TailwindCSS, Node.js + Express.js & MongoDB!.<br> My true passion lies in 
+        or SvelteKit), TailwindCSS, Node.js + Express.js & MongoDB.<br> My true passion lies in 
         <span class="text-teal-500">learning. </span> I eagerly embrace new challenges and skills, 
         adventuring into unfamiliar territory with enthusiasm.
       </p>
