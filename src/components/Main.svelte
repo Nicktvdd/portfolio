@@ -112,12 +112,13 @@
       </Step>
       <Step step={steps[1]} >
         <p>
-          For my next full-stack project, I'm excited to delve into <strong class='text-teal-500'>
-            Next.js</strong>, <strong class='text-teal-500'>Stripe</strong>, 
-            <strong class='text-teal-500'>Prisma</strong>, 
-            and other essential technologies. My goal is to create a comprehensive e-commerce platform,
-             complete with a shopping cart, aesthetically pleasing product displays, 
-             and secure transactions.
+          I'm Building a SaaS AI Platform with <strong class='text-teal-500'>Next.js 13</strong>, 
+          <strong class='text-teal-500'>React</strong>, 
+          <strong class='text-teal-500'>Tailwind</strong>, 
+          <strong class='text-teal-500'>Prisma</strong>, and 
+          <strong class='text-teal-500'>Stripe</strong>. 
+          My goal is to create a comprehensive SaaS AI platform, 
+          complete with AI-powered features, a user-friendly interface, and secure transactions.
         </p></Step
       >
       <Step step={steps[2]}>
