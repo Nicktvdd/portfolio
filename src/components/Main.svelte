@@ -3,7 +3,7 @@
 
   let steps = [
     { name: "Portfolio", icon: "fa-solid fa-code", href:"https://nickvandendungen.com" },
-    { name: "E-commerce", icon: "fa-solid fa-list-check" },
+    { name: "AI SaaS", icon: "fa-solid fa-list-check" },
     { name: "Low-level C programming", icon: "fa-solid fa-diagram-project", href:"https://github.com/Nicktvdd/MiniShell"},
   ];
 

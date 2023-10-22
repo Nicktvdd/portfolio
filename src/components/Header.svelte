@@ -14,6 +14,11 @@
       ? " py-4 bg-neutral-900 border-teal-900"
       : " py-6 bg-transparent border-transparent")}
 >
+<img
+src={"favicon.png"}
+alt="Logo"
+class="w-10 h-10 py-1 px-1"
+/>
   <h1 class="font-medium">
     <b class="font-bold poppins">Nick</b> Van den Dungen
   </h1>

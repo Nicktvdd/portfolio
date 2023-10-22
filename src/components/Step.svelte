@@ -20,7 +20,7 @@ hover:border-teal-500 duration-200"
   <div class="flex-1 flex justify-between gap-4 items-center">
     <div
       class="ml-auto cursor-pointer hover:text-stone-950 duration-200 relative
-    after:absolute after:top-0 after:h-0 after:right-full after:w-full after:h-full
+    after:absolute after:top-0 after:right-full after:w-full after:h-full
     after:bg-stone-50 after:duration-200 hover:after:translate-x-full after:z-[-1] 
     overflow-hidden"
     >
