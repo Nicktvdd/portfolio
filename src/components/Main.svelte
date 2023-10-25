@@ -106,8 +106,8 @@
           styled with <strong class="text-teal-500">TailwindCSS</strong>, 
           and hosted on <strong class="text-teal-500">Vercel</strong>. 
           Shifting from my prior experience with React, I was eager to explore a fresh approach. 
-          SvelteKit felt intuitively appealing, even though it has fewer learning resources available. 
-          Additionally, it marked my inaugural experience with TailwindCSS.
+          SvelteKit felt intuitive, even though it has fewer learning resources available. 
+          Additionally, it was my first experience with TailwindCSS.
         </p>
       </Step>
       <Step step={steps[1]} >
