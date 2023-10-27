@@ -37,6 +37,10 @@ p {
   animation-range: entry 50% cover 50%;
 }
 
+footer p {
+  animation: none
+}
+
 @keyframes fade {
   from {
     opacity: 0;
