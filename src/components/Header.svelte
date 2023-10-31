@@ -32,7 +32,7 @@ class="w-10 h-10 py-1 px-1"
   <a
     href="https://www.linkedin.com/in/nick-van-den-dungen/"
     target="_blank"
-    class="relative hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear"
+    class="relative duration-200 hover:text-teal-500 hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear"
   >
     <div
       class="absolute top-0 right-full w-full-h-full bg-teal-500 opacity-20 group-hover:translate-x-full z-0 duration-200"
@@ -42,7 +42,7 @@ class="w-10 h-10 py-1 px-1"
   <a
     href="https://github.com/Nicktvdd"
     target="_blank"
-    class="relative px-4 hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear"
+    class="relative duration-200 hover:text-teal-500 px-4 hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear"
   >
     <div
       class="absolute top-0 right-full w-full-h-full bg-teal-500 opacity-20 group-hover:translate-x-full z-0 duration-200"
