@@ -35,9 +35,9 @@
       class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
     >
       <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl animate-fade-left animate-ease-linear">
-        Hi! I'm <br /><span class="poppins text-teal-500">Nick</span> Van den
+        Hi! I'm <br /><span class="poppins bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-teal-600">Nick</span> Van den
         Dungen<br />Full Stack
-        <span class="poppins text-teal-500">Developer</span>
+        <span class="poppins bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-teal-200">Developer</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl animate-fade-right animate-ease-linear">
         My <span class="text-teal-500">favorite tech</span> includes Javascript (NEXT.JS
@@ -221,4 +221,5 @@
       <p>Scroll to see more &rarr;</p>
     </div>
   </section>
+  
 </main>
