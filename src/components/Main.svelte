@@ -49,7 +49,7 @@
         class="blueShadow transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 hover:bg-teal-500 duration-200
         mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-stone-50 text-stone-950
         cursor-pointer"
-        href="https://www.linkedin.com/in/nick-van-den-dungen/"
+        href="mailto:nicktvdd@gmail.com"
         target="_blank"
       >
         <div

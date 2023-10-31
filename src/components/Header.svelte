@@ -32,11 +32,21 @@ class="w-10 h-10 py-1 px-1"
   <a
     href="https://www.linkedin.com/in/nick-van-den-dungen/"
     target="_blank"
-    class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-stone-50 text-stone-950 hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear"
+    class="relative hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear"
   >
     <div
       class="absolute top-0 right-full w-full-h-full bg-teal-500 opacity-20 group-hover:translate-x-full z-0 duration-200"
     />
-    <h4 class="relative z-9">Get in touch</h4>
+    <i class="fa-brands fa-linkedin" />
+  </a>
+  <a
+    href="https://github.com/Nicktvdd"
+    target="_blank"
+    class="relative px-4 hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear"
+  >
+    <div
+      class="absolute top-0 right-full w-full-h-full bg-teal-500 opacity-20 group-hover:translate-x-full z-0 duration-200"
+    />
+    <i class="fa-brands fa-github" />
   </a>
 </header>
