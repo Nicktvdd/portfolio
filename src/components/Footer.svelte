@@ -1,5 +1,5 @@
 <footer
-  class="py-10 sm:py-16 bg-stone border-t border-solid border-teal-950
+  class="py-20 sm:py-32 bg-stone border-t border-solid border-teal-950
 flex flex-col gap-4 sm:gap8 justify-center items-center"
 >
   <div class="flex flex-col gap-4 items-center justify-center">
