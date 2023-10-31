@@ -50,7 +50,7 @@ footer p {
   }
 }
 
-/* Add this CSS class for the animated background */
+/* Add this CSS class for the cooler animated background */
 .animated-background {
   position: fixed;
   top: 0;
@@ -58,16 +58,20 @@ footer p {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(135deg, #115e59, #2b86a5, #115e59);
-  background-size: 200% 200%;
-  animation: gradientAnimation 10s linear infinite;
+  background: linear-gradient(-45deg, #042f2e, #292524, #0f766e, #a5f3fc );
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
 }
 
 @keyframes gradientAnimation {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 0%;
   }
   100% {
-    background-position: 100% 50%;
+    background-position: 0% 100%;
   }
 }
+

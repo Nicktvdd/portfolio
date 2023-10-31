@@ -26,13 +26,14 @@
   ];
 </script>
 
+<div class="animated-background"></div>
 <main class="flex flex-col flex-1 p-4">
   <section
     id="introPage"
     class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
   >
     <div
-      class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10 "
+      class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
     >
       <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl animate-fade-left animate-ease-linear">
         Hi! I'm <br /><span class="poppins bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-teal-600">Nick</span> Van den
@@ -53,7 +54,7 @@
         target="_blank"
       >
         <div
-          class="absolute top-0 right-full w-full-h-full bg-teal-500 opacity-20 group-hover:translate-x-full z-0 duration-200 animated-background"
+          class="absolute top-0 right-full w-full-h-full bg-teal-500 opacity-20 group-hover:translate-x-full z-0 duration-200"
         />
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </a>
@@ -140,7 +141,7 @@
       {#each benefits as benefit, index}
         <div class="flex gap-6 sm:gap-8">
           <p
-            class="poppins text-4xl sm:text-5xl md:text-6xl text-stone-500 font-semibold"
+            class="poppins text-4xl sm:text-5xl md:text-6xl font-semibold"
           >
             0{index + 1}
           </p>
