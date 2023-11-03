@@ -2,9 +2,9 @@
   import Step from "./Step.svelte";
 
   let steps = [
-    { name: "Portfolio", icon: "fa-solid fa-code", href:"https://nickvandendungen.com" },
-    { name: "AI SaaS", icon: "fa-solid fa-list-check" },
-    { name: "Low-level C programming", icon: "fa-solid fa-diagram-project", href:"https://github.com/Nicktvdd/MiniShell"},
+    { name: "Portfolio", icon: "fa-solid fa-code text-light-accent", href:"https://nickvandendungen.com" },
+    { name: "AI SaaS", icon: "fa-solid fa-list-check text-light-accent" },
+    { name: "Low-level C programming", icon: "fa-solid fa-diagram-project text-light-accent", href:"https://github.com/Nicktvdd/MiniShell"},
   ];
 
   let benefits = [
@@ -70,11 +70,8 @@
 
   <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
     <div class="flex flex-col gap-2 text-center">
-      <h6 class="text-lg sm:text-xl md:text-2xl animate-flip-up animate-ease-linear">
-        A few of my creative endeavors
-      </h6>
-      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-        Curious to <span class="poppins text-teal-500">see</span> my work?
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl text-light-shade">
+        My <span class="poppins text-teal-500">projects</span>
       </h3>
     </div>
     <!-- <a
@@ -129,8 +126,8 @@
   before:left-0 before:w-2/3 before:h-1.5 before:bg-teal-800 after:absolute
   after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-teal-800 py-4"
     >
-      <h6 class="text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
-      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+      <h6 class="text-lg sm:text-xl md:text-2xl text-light-shade">Want to know more?</h6>
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl text-light-shade">
         A bit <span class="poppins text-teal-500">about</span> me.
       </h3>
     </div>
@@ -139,7 +136,7 @@
     </p>
     <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
       {#each benefits as benefit, index}
-        <div class="flex gap-6 sm:gap-8">
+        <div class="flex gap-6 sm:gap-8 text-light-accent">
           <p
             class="poppins text-4xl sm:text-5xl md:text-6xl font-semibold"
           >

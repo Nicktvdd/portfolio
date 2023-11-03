@@ -15,7 +15,7 @@ hover:border-teal-500 duration-200"
   >
     <i class={step.icon} />
   </div>
-  <h3 class="font-medium text-xl sm:text-2xl md:text-3xl">{step.name}</h3>
+  <h3 class="text-light-accent font-medium text-xl sm:text-2xl md:text-3xl">{step.name}</h3>
   <slot />
   <div class="flex-1 flex justify-between gap-4 items-center">
     <div

@@ -24,7 +24,7 @@ class="w-10 h-10 py-1 px-1"
   </h1>
   <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
     {#each tabs as tab, index}
-      <a href={tab.link} class="duration-200 hover:text-teal-500 hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear">
+      <a href={tab.link} class="duration-200 hover:text-main-brand hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear">
         <p>{tab.name}</p>
       </a>
     {/each}
