@@ -157,7 +157,7 @@
     <div
       class="flex flex-col overflow-x-scroll md:overflow-x-auto gap-10 max-w-[800px] mx-auto w-full"
     >
-      <table class="bg-dark-shade text-dark-accent rounded text-center">
+      <table class=" text-dark-accent rounded text-center">
         <thead class="border-b border-solid border-light-shade">
           <tr class="">
             <th />
@@ -170,7 +170,7 @@
         <tbody>
           <tr class="border-b border-solid border-light-shade">
             <td
-              class="border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="text-light-accent border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Dedication</td
             >
@@ -181,7 +181,7 @@
           </tr>
           <tr class="border-b border-solid border-light-shade">
             <td
-              class="border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="text-light-accent border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Critical Thought</td
             >
@@ -192,7 +192,7 @@
           </tr>
           <tr class="border-b border-solid border-light-shade">
             <td
-              class="border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="text-light-accent border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Interpersonal Skills</td
             >
@@ -203,7 +203,7 @@
           </tr>
           <tr class="border-b border-solid border-light-shade">
             <td
-              class="border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="text-light-accent border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Awesome problem solving</td
             >
