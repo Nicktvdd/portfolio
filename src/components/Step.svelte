@@ -6,8 +6,8 @@
   href={step.href}
   target="_blank"
   class="p-3 sm:p-6 md:p-8 flex flex-col
-gap-4 rounded-lg border border-solid border-teal-800 text-center group cursor-pointer
-hover:border-teal-500 duration-200"
+gap-4 rounded-lg border border-solid border-dark-shade text-center group cursor-pointer
+hover:border-dark-accent duration-200"
 >
   <div
     class="bg-clip-content grid place-items-center px-4 text-5xl md:text-6xl -mt-10 sm:-mt-12
@@ -21,7 +21,7 @@ hover:border-teal-500 duration-200"
     <div
       class="ml-auto cursor-pointer hover:text-stone-950 duration-200 relative
     after:absolute after:top-0 after:right-full after:w-full after:h-full
-    after:bg-stone-50 after:duration-200 hover:after:translate-x-full after:z-[-1] 
+    after:bg-dark-accent after:duration-200 hover:after:translate-x-full after:z-[-1] 
     overflow-hidden"
     >
       <p class="relative z-4">Go to &rarr;</p>

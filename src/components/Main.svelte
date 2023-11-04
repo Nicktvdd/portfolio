@@ -47,14 +47,14 @@
         adventuring into unfamiliar territory with enthusiasm.
       </p>
       <a
-        class="blueShadow transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 hover:bg-teal-500 duration-200
-        mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-stone-50 text-stone-950
+        class="transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 hover:bg-dark-accent duration-200
+        mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-light-accent text-dark-shade
         cursor-pointer"
         href="mailto:nicktvdd@gmail.com"
         target="_blank"
       >
         <div
-          class="absolute top-0 right-full w-full-h-full bg-teal-500 opacity-20 group-hover:translate-x-full z-0 duration-200"
+          class="absolute top-0 right-full w-full-h-full bg-dark-accent opacity-20 group-hover:translate-x-full z-0 duration-200"
         />
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </a>
@@ -123,8 +123,8 @@
   >
     <div
       class="flex flex-col gap-2 text-center relative before:absolute before:top-0
-  before:left-0 before:w-2/3 before:h-1.5 before:bg-teal-800 after:absolute
-  after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-teal-800 py-4"
+  before:left-0 before:w-2/3 before:h-1.5 before:bg-dark-shade after:absolute
+  after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-dark-shade py-4"
     >
       <h6 class="text-lg sm:text-xl md:text-2xl text-light-shade">Want to know more?</h6>
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl text-light-shade">
@@ -151,26 +151,26 @@
         </div>
       {/each}
     </div>
-    <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">
-      The <span class="text-teal-500 poppins">Complete</span> Package
+    <h5 class="text-2xl text-light-accent sm:text-3xl font-semibold text-center poppins">
+      The <span class="text-main-brand poppins">Complete</span> Package
     </h5>
     <div
       class="flex flex-col overflow-x-scroll md:overflow-x-auto gap-10 max-w-[800px] mx-auto w-full"
     >
-      <table class="bg-stone-100 text-stone-700 rounded text-center">
-        <thead class="border-b border-solid border-stone-200">
+      <table class="bg-dark-shade text-dark-accent rounded text-center">
+        <thead class="border-b border-solid border-light-shade">
           <tr class="">
             <th />
             <th class="whitespace-nowrap p-2 px-4"> candidate #1</th>
             <th class="whitespace-nowrap p-2 px-4"> candidate #2</th>
             <th class="whitespace-nowrap p-2 px-4"> candidate #3</th>
-            <th class="whitespace-nowrap bg-teal-800 text-stone-50 p-4 px-8"> Me</th>
+            <th class="whitespace-nowrap text-main-brand p-4 px-8"> Me</th>
           </tr>
         </thead>
         <tbody>
-          <tr class="border-b border-solid border-stone-200">
+          <tr class="border-b border-solid border-light-shade">
             <td
-              class="border-r border-solid bord-stone-50 pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Dedication</td
             >
@@ -179,9 +179,9 @@
             <td><i class="fa-solid fa-xmark text-stone-500" /></td>
             <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
-          <tr class="border-b border-solid border-stone-200">
+          <tr class="border-b border-solid border-light-shade">
             <td
-              class="border-r border-solid bord-stone-50 pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Critical Thought</td
             >
@@ -190,9 +190,9 @@
             <td><i class="fa-solid fa-check text-stone-500" /></td>
             <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
-          <tr class="border-b border-solid border-stone-200">
+          <tr class="border-b border-solid border-light-shade">
             <td
-              class="border-r border-solid bord-stone-50 pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Interpersonal Skills</td
             >
@@ -201,9 +201,9 @@
             <td><i class="fa-solid fa-check text-stone-500" /></td>
             <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
-          <tr class="border-b border-solid border-stone-200">
+          <tr class="border-b border-solid border-light-shade">
             <td
-              class="border-r border-solid bord-stone-50 pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Awesome problem solving</td
             >

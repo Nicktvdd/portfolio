@@ -24,7 +24,7 @@ sm:text-base min-h-screen"
   >
     <button
       on:click={goTop}
-      class="ml-auto relative rounded-full aspect-square bg-stone-900 text-teal-500 px-3 sm:px-4 hover:bg-stone-800 cursor-pointer"
+      class="ml-auto relative rounded-full aspect-square bg-dark-shade text-teal-500 px-3 sm:px-4 hover:bg-dark-accent cursor-pointer"
     >
       <i class="fa-solid fa-arrow-up grid place-items-center aspect-square" />
     </button>
