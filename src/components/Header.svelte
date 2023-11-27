@@ -11,7 +11,7 @@
 <header
   class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border border-solid " +
     (y > 0
-      ? " py-4 bg-transparent border-dark-shade"
+      ? " py-4 bg-transparent border-transparent"
       : " py-6 bg-transparent border-transparent")}
 >
 <img
@@ -25,21 +25,21 @@ class="w-10 h-10 py-1 px-1"
   <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
     {#each tabs as tab, index}
       <a href={tab.link} class="duration-200 hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear">
-        <div class=" text-light-accent hover:text-dark-accent ">{tab.name}</div>
+        <div class=" text-light-accent hover:text-main-brand ">{tab.name}</div>
       </a>
     {/each}
   </div>
   <a
     href="https://www.linkedin.com/in/nick-van-den-dungen/"
     target="_blank"
-    class="relative duration-200 text-light-accent hover:text-dark-accent pr-4 hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear"
+    class="relative duration-200 text-light-accent hover:text-main-brand pr-4 hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear"
   >
     <i class="fa-brands fa-linkedin" />
   </a>
   <a
     href="https://github.com/Nicktvdd"
     target="_blank"
-    class="relative duration-200 text-light-accent hover:text-dark-accent pr-4 hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear"
+    class="relative duration-200 text-light-accent hover:text-main-brand pr-4 hover:animate-wiggle hover:animate-infinite hover:animate-ease-linear"
   >
     <i class="fa-brands fa-github" />
   </a>

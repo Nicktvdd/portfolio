@@ -1,11 +1,11 @@
 <footer
-  class="py-20 sm:py-32 border-t border-solid border-dark-shade
+  class="py-20 sm:py-32 border-t border-solid border-light-accent
 flex flex-col gap-4 sm:gap8 justify-center items-center"
 >
   <div class="flex flex-col gap-4 items-center justify-center">
     <p>
       <a 
-        class="text-dark-accent opacity-100" 
+        class="text-white opacity-100" 
         target="_blank" 
         href="mailto:nicktvdd@gmail.com">
         <i class="fa-solid fa-envelope" />
@@ -18,7 +18,7 @@ flex flex-col gap-4 sm:gap8 justify-center items-center"
     </p>
     <p>
       <a
-        class="text-dark-accent opacity-100"
+        class="text-white opacity-100"
         target="_blank"
         href="https://github.com/Nicktvdd">
         <i class="fa-brands fa-github" />
@@ -34,7 +34,7 @@ flex flex-col gap-4 sm:gap8 justify-center items-center"
     </p>
     <p>
       <a
-        class="text-dark-accent opacity-100"
+        class="text-white opacity-100"
         target="_blank"
         href="https://www.linkedin.com/in/nick-van-den-dungen/">
         <i class="fa-brands fa-linkedin" />

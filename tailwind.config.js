@@ -4,11 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        'light-shade': '#877b45',
-        'light-accent': '#aa913d',
-        'main-brand': '#2dd4bf',
-        'dark-accent': '#7f3b43',
-        'dark-shade': '#18313c',
+        'light-shade': '#6BB77B',
+        'light-accent': '#6BB77B',
+        'main-brand': '#D76F30',
+        'dark-accent': 'black',
+        'dark-shade': '#172D13',
       }
     }
   },

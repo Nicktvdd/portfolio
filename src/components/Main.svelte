@@ -3,7 +3,7 @@
 
   let steps = [
     { name: "Portfolio", icon: "fa-solid fa-code text-light-accent", href:"https://nickvandendungen.com" },
-    { name: "AI SaaS", icon: "fa-solid fa-list-check text-light-accent" },
+    { name: "E-commerce", icon: "fa-solid fa-list-check text-light-accent" },
     { name: "Low-level C programming", icon: "fa-solid fa-diagram-project text-light-accent", href:"https://github.com/Nicktvdd/MiniShell"},
   ];
 
@@ -36,19 +36,19 @@
       class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
     >
       <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl animate-fade-left animate-ease-linear">
-        Hi! I'm <br /><span class="poppins bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-teal-600">Nick</span> Van den
+        Hi! I'm <br /><span class="poppins bg-clip-text text-transparent bg-gradient-to-r from-light-accent to-main-brand">Nick</span> Van den
         Dungen<br />Full Stack
-        <span class="poppins bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-teal-200">Developer</span>
+        <span class="poppins bg-clip-text text-transparent bg-gradient-to-r from-light-accent to-main-brand">Developer</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl animate-fade-right animate-ease-linear">
-        My <span class="text-teal-500">favorite tech</span> includes Javascript (NEXT.JS
+        My <span class="text-main-brand">favorite tech</span> includes Javascript (NEXT.JS
         or SvelteKit), TailwindCSS, Node.js + Express.js & MongoDB.<br> My true passion lies in 
-        <span class="text-teal-500">learning. </span> I eagerly embrace new challenges and skills, 
+        <span class="text-main-brand">learning. </span> I eagerly embrace new challenges and skills, 
         adventuring into unfamiliar territory with enthusiasm.
       </p>
       <a
-        class="transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 hover:bg-dark-accent duration-200
-        mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-light-accent text-dark-shade
+        class="transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 hover:bg-main-brand duration-200
+        mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-light-accent text-white
         cursor-pointer"
         href="mailto:nicktvdd@gmail.com"
         target="_blank"
@@ -61,7 +61,7 @@
     </div>
     <div class="relative grid place-items-center">
       <img
-        src={"images/profile2.png"}
+        src={"images/backup.png"}
         alt="Profile image"
         class="object-cover z-[2] max-h-[70vh] animate-fade animate-ease-linear"
       />
@@ -71,13 +71,13 @@
   <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
     <div class="flex flex-col gap-2 text-center">
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl text-light-shade">
-        My <span class="poppins text-teal-500">projects</span>
+        My <span class="poppins text-main-brand">projects</span>
       </h3>
     </div>
     <!-- <a
       href="https://www.youtube.com/watch?v=H8ZH_mkfPUY&t=7s"
       target="_blank"
-      class="mx-auto px-4 py-2 rounded-md border border-solid border-stone-50
+      class="mx-auto px-4 py-2 rounded-md border border-solid border-white-50
     flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-teal-800 duration-200"
     >
       <i class="fa-regular fa-circle-play" />
@@ -86,9 +86,9 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          This portfolio website is powered by <strong class="text-teal-500">SvelteKit</strong>, 
-          styled with <strong class="text-teal-500">TailwindCSS</strong>, 
-          and hosted on <strong class="text-teal-500">Vercel</strong>. 
+          This portfolio website is powered by <strong class="text-main-brand">SvelteKit</strong>, 
+          styled with <strong class="text-main-brand">TailwindCSS</strong>, 
+          and hosted on <strong class="text-main-brand">Vercel</strong>. 
           Shifting from my prior experience with React, I was eager to explore a fresh approach. 
           SvelteKit felt intuitive, even though it has fewer learning resources available. 
           Additionally, it was my first experience with TailwindCSS.
@@ -96,21 +96,22 @@
       </Step>
       <Step step={steps[1]} >
         <p>
-          I'm Building a SaaS AI Platform with <strong class='text-teal-500'>Next.js 13</strong>, 
-          <strong class='text-teal-500'>React</strong>, 
-          <strong class='text-teal-500'>Tailwind</strong>, 
-          <strong class='text-teal-500'>Prisma</strong>, and 
-          <strong class='text-teal-500'>Stripe</strong>. 
-          My goal is to create a comprehensive SaaS AI platform, 
-          complete with AI-powered features, a user-friendly interface, and secure transactions.
+          I'm Building an E-commerce platform with <strong class='text-main-brand'>Next.js 14</strong>, 
+          <strong class='text-main-brand'>React</strong>, 
+          <strong class='text-main-brand'>Tailwind</strong>, 
+          <strong class='text-main-brand'>Prisma</strong>, and 
+          <strong class='text-main-brand'>Stripe</strong>. 
+          My goal is to create a comprehensive E-Commerce platform, 
+          complete with all features, a user-friendly interface, and secure transactions.
         </p></Step
       >
       <Step step={steps[2]}>
         <p>
-          While at Hive Helsinki, I dove into the realm of <strong class='text-teal-500'>C</strong>, 
+          At Hive Helsinki, I'm diving into the realm of <strong class='text-main-brand'>C</strong> and 
+          <strong class='text-main-brand'>C++</strong>, 
           harnessing low-level problem-solving, teamwork, 
           and attention to detail to craft intricate projects. 
-          I delved deep into programming fundamentals, often creating functions from scratch. 
+          I'm delving deep into programming fundamentals, often creating functions from scratch. 
           One notable project was MiniShell, a minimalist shell developed from the ground up within a team.
         </p></Step
       >
@@ -123,12 +124,11 @@
   >
     <div
       class="flex flex-col gap-2 text-center relative before:absolute before:top-0
-  before:left-0 before:w-2/3 before:h-1.5 before:bg-dark-shade after:absolute
-  after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-dark-shade py-4"
+  before:left-0 before:w-2/3 before:h-1.5 before:bg-light-accent after:absolute
+  after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-light-accent py-4"
     >
-      <h6 class="text-lg sm:text-xl md:text-2xl text-light-shade">Want to know more?</h6>
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl text-light-shade">
-        A bit <span class="poppins text-teal-500">about</span> me.
+        A bit <span class="poppins text-main-brand">about</span> me.
       </h3>
     </div>
     <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
@@ -157,7 +157,7 @@
     <div
       class="flex flex-col overflow-x-scroll md:overflow-x-auto gap-10 max-w-[800px] mx-auto w-full"
     >
-      <table class=" text-dark-accent rounded text-center">
+      <table class=" text-light-accent rounded text-center">
         <thead class="border-b border-solid border-light-shade">
           <tr class="">
             <th />
@@ -170,46 +170,46 @@
         <tbody>
           <tr class="border-b border-solid border-light-shade">
             <td
-              class="text-light-accent border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="text-white border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Dedication</td
             >
-            <td><i class="fa-solid fa-check text-stone-500" /></td>
-            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
-            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
+            <td><i class="fa-solid fa-check text-white-500" /></td>
+            <td><i class="fa-solid fa-xmark text-white-500" /></td>
+            <td><i class="fa-solid fa-xmark text-white-500" /></td>
             <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
           <tr class="border-b border-solid border-light-shade">
             <td
-              class="text-light-accent border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="text-white border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Critical Thought</td
             >
-            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
-            <td><i class="fa-solid fa-check text-stone-500" /></td>
-            <td><i class="fa-solid fa-check text-stone-500" /></td>
+            <td><i class="fa-solid fa-xmark text-white-500" /></td>
+            <td><i class="fa-solid fa-check text-white-500" /></td>
+            <td><i class="fa-solid fa-check text-white-500" /></td>
             <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
           <tr class="border-b border-solid border-light-shade">
             <td
-              class="text-light-accent border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="text-white border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Interpersonal Skills</td
             >
-            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
-            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
-            <td><i class="fa-solid fa-check text-stone-500" /></td>
+            <td><i class="fa-solid fa-xmark text-white-500" /></td>
+            <td><i class="fa-solid fa-xmark text-white-500" /></td>
+            <td><i class="fa-solid fa-check text-white-500" /></td>
             <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
           <tr class="border-b border-solid border-light-shade">
             <td
-              class="text-light-accent border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              class="text-white border-r border-solid border-light-shade pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
             >
               Awesome problem solving</td
             >
-            <td><i class="fa-solid fa-check text-stone-500" /></td>
-            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
-            <td><i class="fa-solid fa-xmark text-stone-500" /></td>
+            <td><i class="fa-solid fa-check text-white-500" /></td>
+            <td><i class="fa-solid fa-xmark text-white-500" /></td>
+            <td><i class="fa-solid fa-xmark text-white-500" /></td>
             <td><i class="fa-solid fa-check text-green-500" /></td>
           </tr>
         </tbody>
