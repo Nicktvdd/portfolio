@@ -41,8 +41,8 @@
         <span class="poppins bg-clip-text text-transparent bg-gradient-to-r from-light-accent to-main-brand">Developer</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl animate-fade-right animate-ease-linear">
-        My <span class="text-main-brand">favorite tech</span> includes Javascript (NEXT.JS
-        or SvelteKit), TailwindCSS, Node.js + Express.js & MongoDB.<br> My true passion lies in 
+        My <span class="text-main-brand">favorite tech</span> includes Javascript/Typescript (NEXT.JS
+        or SvelteKit), Node.js + Express.js & MongoDB.<br> My true passion lies in 
         <span class="text-main-brand">learning. </span> I eagerly embrace new challenges and skills, 
         adventuring into unfamiliar territory with enthusiasm.
       </p>
