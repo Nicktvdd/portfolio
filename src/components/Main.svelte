@@ -3,7 +3,7 @@
 
   let steps = [
     { name: "Portfolio", icon: "fa-solid fa-code text-light-accent", href:"https://nickvandendungen.com" },
-    { name: "E-commerce", icon: "fa-solid fa-list-check text-light-accent" },
+    { name: "D&D Android App", icon: "fa-solid fa-list-check text-light-accent", href:"https://github.com/Nicktvdd/DnD-Api"},
     { name: "Low-level C programming", icon: "fa-solid fa-diagram-project text-light-accent", href:"https://github.com/Nicktvdd/MiniShell"},
   ];
 
@@ -96,13 +96,11 @@
       </Step>
       <Step step={steps[1]} >
         <p>
-          I'm Building an E-commerce platform with <strong class='text-main-brand'>Next.js 14</strong>, 
-          <strong class='text-main-brand'>React</strong>, 
-          <strong class='text-main-brand'>Tailwind</strong>, 
-          <strong class='text-main-brand'>Prisma</strong>, and 
-          <strong class='text-main-brand'>Stripe</strong>. 
-          My goal is to create a comprehensive E-Commerce platform, 
-          complete with all features, a user-friendly interface, and secure transactions.
+          I'm Building an Dungeons and Dragons app with <strong class='text-main-brand'>Kotlin</strong> and
+          <strong class='text-main-brand'>Compose</strong> in
+          <strong class='text-main-brand'>Android Studio</strong>, 
+          My goal is to create a comprehensive roleplaying platform, 
+          complete with all features, a user-friendly interface, and all the tools you need as a player and game master.
         </p></Step
       >
       <Step step={steps[2]}>
