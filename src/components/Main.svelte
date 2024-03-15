@@ -96,7 +96,7 @@
       </Step>
       <Step step={steps[1]} >
         <p>
-          I'm Building an Dungeons and Dragons app with <strong class='text-main-brand'>Kotlin</strong> and
+          I'm Building a Dungeons and Dragons app with <strong class='text-main-brand'>Kotlin</strong> and
           <strong class='text-main-brand'>Compose</strong> in
           <strong class='text-main-brand'>Android Studio</strong>, 
           My goal is to create a comprehensive roleplaying platform, 
