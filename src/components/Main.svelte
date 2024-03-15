@@ -2,7 +2,7 @@
   import Step from "./Step.svelte";
 
   let steps = [
-    { name: "Portfolio", icon: "fa-solid fa-code text-light-accent", href:"https://nickvandendungen.com" },
+    { name: "Portfolio", icon: "fa-solid fa-code text-light-accent", href:"https://github.com/Nicktvdd/portfolio"},
     { name: "D&D Android App", icon: "fa-solid fa-list-check text-light-accent", href:"https://github.com/Nicktvdd/DnD-Api"},
     { name: "Low-level C programming", icon: "fa-solid fa-diagram-project text-light-accent", href:"https://github.com/Nicktvdd/MiniShell"},
   ];
